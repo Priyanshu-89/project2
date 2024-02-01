@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    background-color: #F5F8FD;
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    padding: 30px 50px;
+    /* background-color: orangered; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav #nav-part1{
+    width: 60%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav #nav-part1 h4{
+   font-size:22px ;
+   font-weight: 600;
+}
+
+nav #nav-part1 p{
+    
+    font-size:22px ;
+    font-weight: 600;
+}
+
+nav #nav-part2 h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav #nav-part2{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+section{
+    margin-top: 80px;
+    padding: 40px 65px;
+
+}
+
+section h3{
+    font-size: 30px;
+    font-weight: 600;;
+}
+
+section h1{
+    margin-top: 40px;
+    font-size: 160px;
+    line-height: 140px;
+    font-weight: 500;
+    letter-spacing: -10px;
+    word-spacing: 12px;
+}
+
+#image{
+    padding: 40px 65px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#image h4{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#line{
+    height: 2px;
+    width: 100px;
+    background-color: #2a2a2a;
+}
+
+#image h5{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+#project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+   
+}
+
+.elem{
+    width: 47%;
+}
+
+.elem img{
+    height: 650px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.bottom i{
+    padding: 12px 30px;
+    font-size: 24px;
+    border: 2px solid #000;
+    border-radius: 50px;
+}
+
+.bottom h2{
+    font-size:40px ;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.bottom h4{
+    font-size: 22px;
+    font-weight: 500;
+    color: #888;
+}
+
+.bottom i:hover{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
